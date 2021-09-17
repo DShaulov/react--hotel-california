@@ -1,0 +1,6 @@
+.checkin-card-div {
+    border-radius: 12px;
+    background-color: azure;
+    flex-basis: 20%;
+    padding: 3%;
+}

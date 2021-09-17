@@ -1,0 +1,21 @@
+label {
+    display: block;
+}
+
+.availability-container {
+    background-color: rgb(47, 47, 46, 0.5);
+    flex-basis: 30%;
+    width: 90%;
+    margin: auto;
+    color: azure;
+    font-family: Copperplate;
+}
+.availability-container__title {
+    margin-left: 3%;
+}
+.availability-container__card-div {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;
+}
