@@ -1,4 +1,4 @@
-import './CheckInCard.css'
+import './styles/CheckInCard.css'
 
 function CheckInCard(props) {
     return (

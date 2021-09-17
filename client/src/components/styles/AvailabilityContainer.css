@@ -1,6 +1,9 @@
 label {
     display: block;
 }
+input {
+    text-align: center;
+}
 
 .availability-container {
     background-color: rgb(47, 47, 46, 0.5);
@@ -15,7 +18,12 @@ label {
 }
 .availability-container__card-div {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     color: black;
     text-align: center;
+}
+.availability-container__card-div__go-btn {
+    flex-basis: 5%;
+    color: azure;
+    background-color: burlywood;
 }

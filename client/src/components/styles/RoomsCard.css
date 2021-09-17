@@ -1,0 +1,7 @@
+.rooms-card-div {
+    display: flex;
+    flex-basis: 10%;
+    justify-content: space-evenly;
+    background-color: azure;
+    padding: 3%;
+}

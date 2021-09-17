@@ -1,0 +1,13 @@
+.guests-card-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: azure;
+    padding: 3%;
+}
+.guests-card-div__children-input {
+    width: 25%;
+}
+.guests-card-div__adult-input {
+    width: 25%;
+}
