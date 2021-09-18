@@ -1,0 +1,11 @@
+.checkout-card-div {
+    background-color: azure;
+    padding: 3%;
+}
+@media (max-width: 1000px) {
+    .checkout-card-div {
+        width: 70%;
+        text-align: center;
+        margin-top: 1%;
+    }
+}

@@ -1,0 +1,52 @@
+.navbar {
+    font-family: Palatino;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(47, 47, 46);
+    color: azure;
+    flex-basis: 10%;
+    z-index: 1;
+}
+.navbar__title-div {
+    cursor: pointer;
+    font-family: Copperplate;
+    font-style: italic;
+    margin-left: 3%;
+    flex-basis: 20%;
+    text-align: center;
+}
+.navbar__contact-div {
+    cursor: pointer;
+    margin-right: 1%;
+}
+.navbar__make-reservation-div {
+    cursor: pointer;
+    margin-right: 5%;
+    background-color: burlywood;
+    height: fit-content;
+    width: 15%;
+    text-align: center;
+    color: azure;
+}
+.navbar__hamburger-div {
+    margin-left: 2%;
+    cursor:pointer;
+}
+.navbar__hamburger-div__bars {
+    width: 35px;
+    height: 5px;
+    margin: 5px;
+    background-color: azure;
+}
+.navbar__spacing-div {
+    margin-right: 10%;
+}
+.mobile-navbar__title-div {
+    cursor: pointer;
+    font-family: Copperplate;
+    font-style: italic;
+    flex-basis: 20%;
+    text-align: center;
+    display: contents;
+}

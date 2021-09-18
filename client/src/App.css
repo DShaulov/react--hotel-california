@@ -3,8 +3,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    cursor: default;
 }
-.slogan-container {
+.app__slogan-container {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -12,10 +13,15 @@
     flex-basis: 50%;
     justify-content: center;
 }
-.slogan {
+.app__slogan-container__slogan {
     color: azure;
     text-shadow: 3px 3px black;
     font-family: Palatino;
     font-style: italic;
 }
-
+.app__sidebar-div {
+    position:absolute;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(73, 73, 70, 0.9);
+}

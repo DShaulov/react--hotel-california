@@ -1,0 +1,11 @@
+.checkin-card-div {
+    background-color: azure;
+    padding: 3%;
+}
+
+@media (max-width: 1000px) {
+    .checkin-card-div {
+        width: 70%;
+        text-align: center;
+    }
+}
