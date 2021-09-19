@@ -21,7 +21,39 @@
 }
 .app__sidebar-div {
     position:absolute;
-    width: 50%;
+    width: 45%;
     height: 100%;
-    background-color: rgb(73, 73, 70, 0.9);
+    background-color: rgb(73, 73, 70);
+}
+.contact-page-div {
+    background-color: rgb(47, 47, 46, 0.5);
+    flex-basis: 100%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.rooms-page-div {
+    background-color: rgb(47, 47, 46, 0.5);
+    flex-basis: 100%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.my-booking-page-div {
+    background-color: rgb(47, 47, 46, 0.5);
+    flex-basis: 100%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.make-reservation-page-div {
+    background-color: rgb(47, 47, 46, 0.5);
+    flex-basis: 100%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }

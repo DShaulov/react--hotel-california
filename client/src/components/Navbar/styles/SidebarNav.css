@@ -1,0 +1,9 @@
+.sidebar-nav-div {
+    text-align: center;
+    color: azure;
+}
+.sidebar-nav-div__make-reservation-div {
+    cursor: pointer;
+    background-color: burlywood;
+    padding: 4px;
+}

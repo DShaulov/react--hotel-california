@@ -16,9 +16,18 @@
     flex-basis: 20%;
     text-align: center;
 }
+.navbar__home-div {
+    cursor: pointer;
+}
+.navbar__rooms-div {
+    cursor: pointer;
+}
 .navbar__contact-div {
     cursor: pointer;
     margin-right: 1%;
+}
+.navbar__my-booking-div {
+    cursor: pointer;
 }
 .navbar__make-reservation-div {
     cursor: pointer;
