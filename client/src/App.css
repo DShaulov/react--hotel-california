@@ -24,6 +24,25 @@
     width: 45%;
     height: 100%;
     background-color: rgb(73, 73, 70);
+    z-index: 1;
+}
+.main-home-page-div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+    opacity: 1;
+    transition: opacity 0.5s 1s;
+    -webkit-animation: homeFadeIn .4s linear forwards;
+    animation: homeFadeIn .4s linear forwards;
+}
+.main-contact-page-div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+    opacity: 1;
+    transition: opacity 0.5s 1s;
+    -webkit-animation: contactFadeIn .4s linear forwards;
+    animation: contactFadeIn .4s linear forwards;
 }
 .contact-page-div {
     background-color: rgb(47, 47, 46, 0.5);
@@ -33,6 +52,16 @@
     margin-top: 5%;
     margin-bottom: 2%;
 }
+.main-rooms-page-div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 0.5s 1s;
+    -webkit-animation: roomsFadeIn .4s linear forwards;
+    animation: roomsFadeIn .4s linear forwards;
+}
 .rooms-page-div {
     background-color: rgb(47, 47, 46, 0.5);
     flex-basis: 100%;
@@ -40,6 +69,16 @@
     margin: auto;
     margin-top: 5%;
     margin-bottom: 2%;
+    max-height: 630px;
+}
+.main-booking-page-div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+    opacity: 1;
+    transition: opacity 0.5s 1s;
+    -webkit-animation: myBookingFadeIn .4s linear forwards;
+    animation: myBookingFadeIn .4s linear forwards;
 }
 .my-booking-page-div {
     background-color: rgb(47, 47, 46, 0.5);
@@ -49,6 +88,15 @@
     margin-top: 5%;
     margin-bottom: 2%;
 }
+.main-make-reservation-page-div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
+    opacity: 1;
+    transition: opacity 0.5s 1s;
+    -webkit-animation: reservationFadeIn .4s linear forwards;
+    animation: reservationFadeIn .4s linear forwards;
+}
 .make-reservation-page-div {
     background-color: rgb(47, 47, 46, 0.5);
     flex-basis: 100%;
@@ -57,25 +105,50 @@
     margin-top: 5%;
     margin-bottom: 2%;
 }
-.app__main-page-div {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 90%;
-    opacity: 1;
-    transition: opacity 0.5s 1s;
+@-webkit-keyframes roomsFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
-.fadeOut {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 90%;
-    opacity: 0;
-    transition: opacity 0.5s 1s;
-}
-.fadeIn {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 90%;
-    opacity: 1;
-    transition: opacity 0.5s 1s;
+    
+@keyframes roomsFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
+@-webkit-keyframes contactFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes contactFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes homeFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+    
+@keyframes homeFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes myBookingFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+    
+@keyframes myBookingFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes reservationFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+    
+@keyframes reservationFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+    

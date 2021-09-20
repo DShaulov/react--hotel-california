@@ -1,0 +1,22 @@
+.rooms-container-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    overflow-y: scroll;
+    max-height: 100%;
+}
+.rooms-container-div__title {
+    color: azure;
+    text-align: center;
+}
+.room-card-div__details-div__reserve-div {
+    background-color: burlywood;
+    color: azure;
+}
+.room-card-div__details-div__reserve-btn {
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    margin-left: 25%;
+    background-color: burlywood;
+}

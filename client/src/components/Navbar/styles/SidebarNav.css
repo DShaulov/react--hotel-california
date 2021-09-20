@@ -1,9 +1,22 @@
 .sidebar-nav-div {
     text-align: center;
     color: azure;
+    z-index: 13;
 }
 .sidebar-nav-div__make-reservation-div {
     cursor: pointer;
     background-color: burlywood;
     padding: 4px;
+}
+.sidebar-nav-div__home-div {
+    cursor: pointer;
+}
+.sidebar-nav-div__rooms-div {
+    cursor: pointer;
+}
+.sidebar-nav-div__contact-div {
+    cursor: pointer;
+}
+.sidebar-nav-div__my-booking-div {
+    cursor: pointer;
 }
