@@ -3,8 +3,10 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import AvailabilityContainer from './components/Home-Page/AvailabilityContainer';
 import SidebarNav from './components/Navbar/SidebarNav';
-import ContactUserInfo from './components/Contact-Page/ContactUserInfo';
 import RoomsContainer from './components/Rooms-Page/RoomsContainer';
+import ContactPage from './components/Contact-Page/ContactPage';
+import MakeReservation from './components/MakeReservation-Page/MakeReservation';
+import MyBooking from './components/My-Booking-Page/MyBooking';
 
 function App() {
     const HOME = "Home", CONTACT = "Contact", ROOMS = 'Rooms', MY_BOOKING="My-Booking", MAKE_RESERVATION="Make A Reservation";
@@ -27,6 +29,9 @@ function App() {
                         <h1 className="app__slogan-container__slogan">Make Memories With Us</h1>
                     </div>
                     <AvailabilityContainer/>
+                    <div className="app__spacer-div">
+
+                    </div>
                 </div>
             </>
         )
@@ -45,7 +50,7 @@ function App() {
         return (
             <div className="main-contact-page-div">
                 <div className="contact-page-div">
-                    <ContactUserInfo/>
+                    <ContactPage/>
                 </div>
             </div>
         )
@@ -54,7 +59,7 @@ function App() {
         return (
             <div className="main-booking-page-div">
                 <div className="my-booking-page-div">
-                    <h1>MY BOOKING</h1>
+                    <MyBooking/>
                 </div>
             </div>
         )
@@ -63,7 +68,7 @@ function App() {
         return (
             <div className="main-make-reservation-page-div">
                 <div className="make-reservation-page-div">
-                    <h1>Reservation</h1>
+                    <MakeReservation/>
                 </div>
             </div>
         )

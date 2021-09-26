@@ -1,0 +1,24 @@
+.my-booking-div {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    height: 90%;
+    width: 80%;
+    margin: auto;
+    margin-top: 2.5%;
+}
+.my-booking-div__title {
+    text-align: center;
+}
+.my-booking-div__paragraph {
+    text-align: center;
+}
+.my-booking-div__booking-info-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.my-booking-div__booking-id-form {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}

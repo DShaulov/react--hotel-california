@@ -1,0 +1,54 @@
+.contact-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: azure;
+    height: 90%;
+    width: 80%;
+    margin-top: 2.5%;
+}
+.contact-div__title {
+    flex-basis: 10%;
+    text-align: center;
+}
+.contact-div__paragraph {
+    flex-basis: 10%;
+    text-align: center;
+}
+.contact-div__form {
+    margin: auto;
+    flex-basis: 80%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.contact-div__form__select {
+    text-align: center;
+    text-indent: 2%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-div__form__name  {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-div__form__email  {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-div__form__phone  {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-div__form__comment {
+    flex-basis: 40%;
+    padding: 1%;
+}
+.contact-div__form__subject-label {
+    text-align: center;
+}

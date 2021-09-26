@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     color:azure;
-    flex-basis: 50%;
+    flex-basis: 60%;
     justify-content: center;
 }
 .app__slogan-container__slogan {
@@ -47,6 +47,9 @@
 .contact-page-div {
     background-color: rgb(47, 47, 46, 0.5);
     flex-basis: 100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
     width: 80%;
     margin: auto;
     margin-top: 5%;
@@ -56,7 +59,7 @@
     display: flex;
     flex-direction: column;
     flex-basis: 90%;
-    height: 100%;
+    height: 80%;
     opacity: 1;
     transition: opacity 0.5s 1s;
     -webkit-animation: roomsFadeIn .4s linear forwards;
@@ -69,7 +72,7 @@
     margin: auto;
     margin-top: 5%;
     margin-bottom: 2%;
-    max-height: 630px;
+    height: 80%;
 }
 .main-booking-page-div {
     display: flex;
@@ -104,6 +107,9 @@
     margin: auto;
     margin-top: 5%;
     margin-bottom: 2%;
+}
+.app__spacer-div {
+    flex-basis: 10%;
 }
 @-webkit-keyframes roomsFadeIn {
     0% { opacity: 0; }

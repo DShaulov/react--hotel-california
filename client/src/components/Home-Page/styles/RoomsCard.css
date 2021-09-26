@@ -5,7 +5,9 @@
     background-color: azure;
     padding: 3%;
 }
-
+.rooms-card-div__room-type-div {
+    overflow-y: scroll;
+}
 @media (max-width: 1000px) {
     .rooms-card-div {
         width: 70%;

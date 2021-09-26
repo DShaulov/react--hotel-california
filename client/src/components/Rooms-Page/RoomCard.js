@@ -3,7 +3,9 @@ import './styles/RoomCard.css';
 function RoomCard(props) {
     return(
         <div className="room-card-div">
-            <img src={props.details["image_url"]} alt="" className="room-card-div__img"/>
+            <div className="room-card-div__img-div">
+                <img src={props.details["image_url"]} alt="" className="room-card-div__img-div__img"/>
+            </div>
             <div className="rooms-card-div__description-div">
                 <h3>{props.details["type"]}</h3>
                 <p>{props.details["description"]}</p>

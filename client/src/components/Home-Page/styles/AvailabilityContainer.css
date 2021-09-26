@@ -12,6 +12,7 @@ input {
     margin: auto;
     color: azure;
     font-family: Copperplate;
+    height: 30%;
 }
 .availability-container__title {
     margin-left: 3%;
@@ -21,6 +22,7 @@ input {
     justify-content: space-evenly;
     color: black;
     text-align: center;
+    height: 60%;
 }
 .availability-container__card-div__go-btn {
     flex-basis: 5%;
