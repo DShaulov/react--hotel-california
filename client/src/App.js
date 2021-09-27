@@ -30,7 +30,6 @@ function App() {
                     </div>
                     <AvailabilityContainer/>
                     <div className="app__spacer-div">
-
                     </div>
                 </div>
             </>

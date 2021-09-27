@@ -16,6 +16,10 @@ function MakeReservation(props) {
             <p className="make-reservation-div__paragraph">Please fill in the information and one of our respresentatives will contact you.</p>
             <form action="" className="make-reservation-div__form">
                 <div className="make-reservation-div__form__info-div">
+                    <label htmlFor="name">Name</label>
+                    <input id="name" type="text" placeholder="Name"/>
+                    <label htmlFor="Check-in">Email:</label>
+                    <input id="email" type="text" placeholder="Email"/>
                     <label htmlFor="Check-in">Check-in:</label>
                     <input id="Check-in" type="date"/>
                     <label htmlFor="Check-out">Check-out:</label>

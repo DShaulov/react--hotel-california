@@ -52,3 +52,8 @@
 .contact-div__form__subject-label {
     text-align: center;
 }
+.contact-div__form__submit-btn {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
