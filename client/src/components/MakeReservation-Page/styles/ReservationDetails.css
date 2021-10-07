@@ -1,0 +1,16 @@
+.reservation-details {
+    display: flex;
+    flex-direction: column;
+}
+.reservation-details__paragraph {
+    text-align: center;
+}
+.reservation-details__details-div {
+    display: flex;
+}
+.reservation-details__details-div__div-1 {
+    display: flex;
+}
+.reservation-details__details-div__div-2 {
+    display: flex;
+}

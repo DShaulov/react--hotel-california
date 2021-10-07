@@ -1,7 +1,9 @@
 import './styles/MakeReservation.css';
 import { useState } from 'react';
+import axios from 'axios';
 
 function MakeReservation(props) {
+    const [reservationMade, setReservationMade] = useState(false);
     const [rooms, setRooms] = useState([]);
     const updateNumRooms = (e) => {
         let roomArray = [];
@@ -10,11 +12,43 @@ function MakeReservation(props) {
         }
         setRooms(roomArray);
     }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        let name = e.target[0].value;
+        let email = e.target[1].value;
+        let checkin = e.target[2].value;
+        let checkout = e.target[3].value;
+        let adults = e.target[4].value;
+        let children = e.target[5].value;
+        let roomsNum = e.target[6].value;
+        let targetIndex = 7;
+        let roomTypes = []
+        while (e.target[targetIndex].className !== 'make-reservation-div__make-reservation-btn') {
+            roomTypes.push(e.target[targetIndex][e.target[targetIndex].selectedIndex].innerText)
+            targetIndex += 1;
+        }
+        let id = Date.now().toString();
+        axios.post('/reservation', {
+            id: id,
+            name: name,
+            email: email,
+            checkin: checkin,
+            checkout: checkout,
+            adults: adults,
+            children: children,
+            roomsNum: roomsNum,
+            roomTypes: roomTypes,
+        }).then( success => {
+            console.log(success);
+        }).catch( error => {
+            console.log(error);
+        })
+
+    }
     return (
         <div className="make-reservation-div">
             <h2 className="make-reservation-div__title">Make A Reservation</h2>
-            <p className="make-reservation-div__paragraph">Please fill in the information and one of our respresentatives will contact you.</p>
-            <form action="" className="make-reservation-div__form">
+            <form action="POST" onSubmit={handleSubmit} className="make-reservation-div__form" id="reservation-form">
                 <div className="make-reservation-div__form__info-div">
                     <label htmlFor="name">Name</label>
                     <input id="name" type="text" placeholder="Name"/>
@@ -63,7 +97,7 @@ function MakeReservation(props) {
                     </div>
                 </div>
             </form>
-            <button className="make-reservation-div__make-reservation-btn">Make Reservation</button>
+            <button type="submit" form="reservation-form" className="make-reservation-div__make-reservation-btn">Make Reservation</button>
         </div>
     )
 }
